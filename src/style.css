@@ -1,0 +1,29 @@
+#nota{
+  font-size: 10em;
+  font-family:monospace;
+}
+
+
+.pizarra{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 500px;
+  height:auto;
+  word-wrap: break-word;
+
+}
+
+
+#container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#illustration{
+  width: 300px;
+  height:136px;
+  /* background-color: green; */
+}
